@@ -125,6 +125,18 @@ a.reserva {
     padding: 15px 0px;
 }
 
+#area-principal h2 {
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0;
+}
+
+#area-principal p {
+    text-align: justify;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
 #area-lateral {
     float: right;
     width: 50%;
@@ -146,11 +158,41 @@ a.reserva {
     background: #fff url(../imagens/bg-rodape.png) repeat-x top;
 }
 
-.conteudo a {
-    display: block;
+
+/* Formatação da area lateral */
+
+#beneficios {
+    list-style: none;
 }
 
-.conteudo a img {
+#beneficios li {
+    padding: 8px;
+    height: 6em;
+    border-bottom: 1px solid #f3efcb;
+}
+
+#beneficios li a img {
     float: left;
-    margin: 5px 5px;
+    margin-right: 8px;
+}
+
+#beneficios li:hover {
+    background: #fdf6be;
+    cursor: pointer;
+}
+
+#beneficios li a h3 {
+    font-size: 1em;
+    color: #615b2d;
+    padding: 5px 0;
+    background: url(../imagens/ornamento.png)no-repeat center right;
+}
+
+#beneficios li a p {
+    font-size: 0.8em;
+    color: #000;
+}
+
+div {
+    display: block;
 }
