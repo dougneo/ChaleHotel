@@ -79,6 +79,10 @@ body {
     line-height: 2.1em;
 }
 
+a {
+    text-decoration: none;
+}
+
 a.reserva {
     text-transform: uppercase;
     background: #a29750;
@@ -138,6 +142,8 @@ a.reserva {
 
 #rodape {
     clear: both;
+    padding: 16px;
+    background: #fff url(../imagens/bg-rodape.png) repeat-x top;
 }
 
 .conteudo a {
@@ -146,4 +152,5 @@ a.reserva {
 
 .conteudo a img {
     float: left;
+    margin: 5px 5px;
 }
